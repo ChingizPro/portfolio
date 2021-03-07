@@ -88,3 +88,28 @@
         margin-top: -40px;
     }
 }
+
+@media (max-width: 450px) {
+    .resume__title {
+        font-size: 1.8rem;
+    }
+
+    .resume__body {
+        padding: 0 10px;
+    }
+
+    .resume__item {
+        font-size: 17px;
+    }
+
+    .resume__list li::before {
+        width: 9px;
+        height: 8px;
+        margin-right: 0.5rem;
+    }
+
+    .resume__link {
+        font-size: 17px;
+        padding: 5px 12px;
+    }
+}

@@ -120,6 +120,23 @@ body {
   opacity: 1;
 }
 
+@media (max-width: 850px) {
+  #up {
+    right: 25px;
+    bottom: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  #up {
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 500px) {
   .container {
     padding-left: 40px;
@@ -127,10 +144,30 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  #up {
+    right: 10px;
+    bottom: 15px;
+    width: 42px;
+    height: 42px;
+    font-size: 17px;
+  }
+}
+
 @media (max-width: 400px) {
   .container {
     padding-left: 25px;
     padding-right: 25px;
+  }
+}
+
+@media (max-width: 390px) {
+  #up {
+    right: 5px;
+    bottom: 7px;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
   }
 }
 
@@ -296,6 +333,54 @@ body {
     margin-left: -20px;
     margin-right: -20px;
   }
+  .menu__logo--img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+  .menu__logo--img {
+    width: 90px;
+  }
+  .menu__toggler {
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+  .menu__line {
+    width: 24px;
+    height: 3px;
+    border-radius: 6px;
+  }
+  .menu__toggler .top {
+    top: 8px;
+  }
+  .menu__toggler .bottom {
+    bottom: 8px;
+  }
+  .toggler__active .top {
+    top: 16px;
+  }
+  .toggler__active .bottom {
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu {
+    padding-top: 7px;
+    margin-bottom: 20px;
+  }
 }
 
 .info {
@@ -316,10 +401,20 @@ body {
   margin: 15px 0;
 }
 
+.info__img-wrapper {
+  min-height: 250px;
+}
+
 .info__img {
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 250px;
   height: auto;
+}
+
+.info__footer {
+  min-height: 300px;
 }
 
 .info__footer--img {
@@ -329,8 +424,41 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .info__footer {
+    min-height: 250px;
+  }
   .info__footer--img {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 835px) {
+  .info__footer {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 555px) {
+  .info__footer {
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 450px) {
+  .info__header {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .info__header {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 370px) {
+  .info__footer {
+    min-height: 50px;
   }
 }
 
@@ -640,6 +768,34 @@ body {
   }
 }
 
+@media (max-width: 280px) {
+  .projects {
+    margin-left: -23px;
+    margin-right: -23px;
+  }
+  .project {
+    padding: 10px 5px;
+  }
+  .project__content {
+    padding: 5px;
+  }
+  .project__title {
+    font-size: 20px;
+  }
+  .project__description {
+    letter-spacing: 0.5px;
+    font-size: 15px;
+  }
+  .project__item {
+    font-size: 16px;
+  }
+  .project__link {
+    font-size: 15px;
+    padding: 3px 8px 4px;
+    border-radius: 8px;
+  }
+}
+
 .contacts {
   background-color: #4361ee;
 }
@@ -743,6 +899,36 @@ body {
     height: 39px;
     padding: 7px;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts__content {
+    padding: 60px 0 50px;
+  }
+  .contacts__item {
+    width: 33%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .contacts__logo {
+    margin-bottom: 20px;
+  }
+  .contacts__logo--img {
+    width: 120px;
+  }
+  .contacts__text {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .contacts__link {
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+    font-size: 15px;
+  }
+  .contacts__text {
+    font-size: 18px;
   }
 }
 
@@ -912,6 +1098,12 @@ body {
   .skills-box {
     padding: 0;
   }
+  .info__img-wrapper {
+    min-height: 220px;
+  }
+  .info__img {
+    width: 220px;
+  }
   .info__footer {
     margin-left: -20px;
     margin-right: -20px;
@@ -928,8 +1120,11 @@ body {
   .info__secondary {
     font-size: 1.3rem;
   }
+  .info__img-wrapper {
+    min-height: 200px;
+  }
   .info__img {
-    width: 220px;
+    width: 200px;
   }
   .about__wrapper {
     padding: 100px 0 210px;
@@ -963,6 +1158,9 @@ body {
   .skills-wrapper {
     top: -90px;
   }
+  .info__title {
+    font-size: 2.3rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -979,16 +1177,65 @@ body {
   .skills-wrapper {
     top: -90px;
   }
+  .info__img-wrapper {
+    min-height: 180px;
+  }
+  .info__img {
+    width: 180px;
+  }
+  .info__title {
+    font-size: 2rem;
+  }
+  .about__title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .about__wrapper {
+    padding: 60px 0 150px;
+  }
 }
 
 @media (max-width: 400px) {
+  .about__wrapper {
+    padding: 40px 0 130px;
+  }
+  .about__title {
+    font-size: 1.7rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about__text {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
   .info__footer {
     margin-left: -25px;
     margin-right: -25px;
   }
+  .info__img-wrapper {
+    min-height: 160px;
+  }
+  .info__img {
+    width: 160px;
+  }
 }
 
 @media (max-width: 380px) {
+  .about__wrapper {
+    padding-bottom: 120px;
+  }
+  .about__title {
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about__text {
+    width: 95%;
+    font-size: 1.1rem;
+  }
   .skills-box {
     margin-left: -20px;
     margin-right: -20px;
@@ -998,9 +1245,45 @@ body {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 300px) {
+  .about__wrapper {
+    padding-top: 35px;
+  }
+  .about__title {
+    font-size: 1.2rem;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
   .about__text {
-    width: 90%;
+    width: 98%;
+    font-size: 0.9rem;
+  }
+  .skill {
+    padding: 20px 10px;
+  }
+  .skill__title {
+    font-size: 19px;
+  }
+  .skill__icon {
+    font-size: 35px;
+  }
+  .info__img-wrapper {
+    min-height: 120px;
+  }
+  .skill__text {
+    font-size: 15px;
+  }
+  .skill__list {
+    font-size: 15px;
+  }
+  .info__img {
+    width: 120px;
+  }
+  .info__title {
+    font-size: 1.6rem;
+  }
+  .info__secondary {
+    font-size: 1.1rem;
   }
 }
 
@@ -1099,6 +1382,27 @@ body {
     padding: 10px 10px 30px;
     margin-bottom: 20px;
     margin-top: -40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .resume__title {
+    font-size: 1.8rem;
+  }
+  .resume__body {
+    padding: 0 10px;
+  }
+  .resume__item {
+    font-size: 17px;
+  }
+  .resume__list li::before {
+    width: 9px;
+    height: 8px;
+    margin-right: 0.5rem;
+  }
+  .resume__link {
+    font-size: 17px;
+    padding: 5px 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */

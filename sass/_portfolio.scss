@@ -263,3 +263,37 @@
         margin-right: -20px;
     }
 }
+
+@media (max-width: 280px) {
+    .projects {
+        margin-left: -23px;
+        margin-right: -23px;
+    }
+
+    .project {
+        padding: 10px 5px;
+    }
+
+    .project__content {
+        padding: 5px;
+    }
+
+    .project__title {
+        font-size: 20px;
+    }
+
+    .project__description {
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
+
+    .project__item {
+        font-size: 16px;
+    }
+
+    .project__link {
+        font-size: 15px;
+        padding: 3px 8px 4px;
+        border-radius: 8px;
+    }
+}
