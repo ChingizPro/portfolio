@@ -46,7 +46,8 @@ html {
 body {
   margin: 0;
   color: #030a25;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-display: optional;
 }
 
 .container {

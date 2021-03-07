@@ -42,7 +42,8 @@ html {
 body {
     margin: 0;
     color: $text;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito", "Arial", sans-serif;
+    font-display: optional;
 }
 
 .container {
